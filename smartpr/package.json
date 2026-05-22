@@ -1,0 +1,42 @@
+{
+  "name": "smartpr",
+  "version": "0.1.0",
+  "description": "多Agent协作的需求到代码自动化转换系统 — 将自然语言需求自动转化为可合并的 PR",
+  "main": "src/orchestrator/index.js",
+  "bin": {
+    "smartpr": "src/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Tests coming in Alpha release\" && exit 0",
+    "doctor": "node src/cli.js doctor"
+  },
+  "keywords": [
+    "smartpr",
+    "autonomous",
+    "development",
+    "multi-agent",
+    "ai",
+    "spec-driven",
+    "blueprint",
+    "tdd",
+    "test-driven",
+    "ci-cd",
+    "github-actions",
+    "code-review",
+    "orchestration",
+    "agent-pipeline"
+  ],
+  "author": "SmartPR Contributors",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mangg/smartpr.git"
+  },
+  "homepage": "https://github.com/Mangg/smartpr",
+  "bugs": {
+    "url": "https://github.com/Mangg/smartpr/issues"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
